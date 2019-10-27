@@ -15,8 +15,15 @@ def rent_costs_in_acsending_order(data):
     return result[:5]
 
 
+# list comprehension - creating a new list from items, adding the item for every item in data  
+# if the number of Lease Years is equal to 25 append item to list 
+def lease_of_twenty_five_years(data):
+    return [item for item in data if item.get('Lease Years') == '25']
+
+
 
 csv_data = get_csv_data()
 sorted_by_ascending = rent_costs_in_acsending_order(csv_data)
-print(sorted_by_ascending)
+lease_years_of_twenty_five = lease_of_twenty_five_years(csv_data)
+print(lease_years_of_twenty_five)
 
