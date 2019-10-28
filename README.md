@@ -14,12 +14,12 @@ I have used list comprehension and lambda, and I will be using unit testing to t
 Each function in the script.py can be run separately changing the print command at the bottom of the script, running the script with python3 script.py in the terminal.
 
 ## Running the tests
-
 The unit testing is in progress and will follow.
 
 ### Break down into end to end tests
+All functions are running as espected.
 
-To follow...
+Unit testing to support this to follow...
 
 
 ## Built With

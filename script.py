@@ -9,7 +9,7 @@ def get_csv_data():
         return list(csv_reader)
 
 
-# function that sorts through the data, sorted by the key using lambda in ascending order returning the first 5.
+# function that sorts through the data, sorted by the key using lambda, in ascending order returning the first 5.
 def rent_costs_in_acsending_order(data):
     result = sorted(data, key=lambda d: float(d['Current Rent']))
     return result[:5]
