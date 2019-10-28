@@ -29,7 +29,7 @@ Python 3.8
 
 ## Author
 
-* **Richard Wood** - *Initial work* - [richdevelopments](https://github.com/richdevelopments)
+* **Richard Wood** - [richdevelopments](https://github.com/richdevelopments)
 
 
 
